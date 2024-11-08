@@ -66,7 +66,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView9"
-                tools:ignore="Autofill,LabelFor,RtlSymmetry,UnusedAttribute,VisualLintTextFieldSize" />
+                tools:ignore="Autofill,LabelFor,RtlSymmetry,TextFields,UnusedAttribute,VisualLintTextFieldSize" />
 
             <EditText
                 android:id="@+id/editText4"
