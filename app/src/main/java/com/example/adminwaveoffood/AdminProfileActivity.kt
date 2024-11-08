@@ -15,6 +15,8 @@ class AdminProfileActivity : AppCompatActivity() {
             finish()
         }
 
+        //Add this feature in this files for Enable all edit text
+
         binding.name.isEnabled=false
         binding.address.isEnabled=false
         binding.phone.isEnabled=false
