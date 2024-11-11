@@ -49,7 +49,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/password"
+                android:id="@+id/foodName"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_marginStart="8dp"
@@ -69,7 +69,7 @@
                 tools:ignore="Autofill,LabelFor,RtlSymmetry,TextFields,UnusedAttribute,VisualLintTextFieldSize" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/foodPrice"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
@@ -81,10 +81,10 @@
                 android:paddingStart="15dp"
                 android:text="@string/enter_food_price"
                 android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="@+id/password"
+                app:layout_constraintEnd_toEndOf="@+id/foodName"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/password"
-                app:layout_constraintTop_toBottomOf="@+id/password"
+                app:layout_constraintStart_toStartOf="@+id/foodName"
+                app:layout_constraintTop_toBottomOf="@+id/foodName"
                 tools:ignore="Autofill,LabelFor,RtlSymmetry,UnusedAttribute,VisualLintTextFieldSize" />
 
             <TextView
@@ -100,9 +100,9 @@
                 android:paddingRight="15dp"
                 android:text="@string/select_image"
                 android:textColor="@color/black"
-                app:layout_constraintEnd_toEndOf="@+id/editText4"
-                app:layout_constraintStart_toStartOf="@+id/editText4"
-                app:layout_constraintTop_toBottomOf="@+id/editText4"
+                app:layout_constraintEnd_toEndOf="@+id/foodPrice"
+                app:layout_constraintStart_toStartOf="@+id/foodPrice"
+                app:layout_constraintTop_toBottomOf="@+id/foodPrice"
                 tools:ignore="RtlHardcoded,UseCompatTextViewDrawableXml" />
 
             <androidx.cardview.widget.CardView
@@ -144,7 +144,7 @@
                 tools:ignore="RtlSymmetry" />
 
             <EditText
-                android:id="@+id/description"
+                android:id="@+id/foodDescription"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -174,11 +174,11 @@
                 android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/description"
+                app:layout_constraintTop_toBottomOf="@+id/foodDescription"
                 tools:ignore="RtlSymmetry,TextViewEdits,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/foodIngredient"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -206,7 +206,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editText5"
+                app:layout_constraintTop_toBottomOf="@+id/foodIngredient"
                 tools:ignore="HardcodedText,DuplicateSpeakableTextCheck,TextContrastCheck" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

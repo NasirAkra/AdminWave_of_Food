@@ -1,5 +1,6 @@
 package com.example.adminwaveoffood.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -39,6 +40,7 @@ class AddItemAdapter(private val menuItemName:ArrayList<String>, private val men
 
 
         }
+        @SuppressLint("SetTextI18n")
         private fun increaseQuantities() {
             if (itemQuantities[position]<10)
             {
@@ -50,6 +52,7 @@ class AddItemAdapter(private val menuItemName:ArrayList<String>, private val men
 
 
         }
+        @SuppressLint("SetTextI18n")
         private fun decreaseQuantities() {
             if (itemQuantities[position]>1)
             {

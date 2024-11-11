@@ -147,7 +147,7 @@
         android:inputType="textEmailAddress"
         android:outlineAmbientShadowColor="@color/textColor"
         android:paddingLeft="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintBottom_toTopOf="@+id/foodName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ResturantName"
