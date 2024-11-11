@@ -42,5 +42,8 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, PendingOrderActivity::class.java)
             startActivity(intent)
         }
+        binding.logout.setOnClickListener {
+            startActivity(Intent(this,SignUpActivity::class.java))
+        }
     }
 }

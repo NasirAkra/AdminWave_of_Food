@@ -258,7 +258,7 @@
             android:background="@drawable/greencard">
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/logout"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_marginTop="10dp"
@@ -275,9 +275,9 @@
                 android:fontFamily="@font/yeonsung_regular"
                 android:text="@string/log_out"
                 android:textColor="#FF0707"
-                app:layout_constraintEnd_toEndOf="@+id/imageView8"
-                app:layout_constraintStart_toStartOf="@+id/imageView8"
-                app:layout_constraintTop_toBottomOf="@+id/imageView8"
+                app:layout_constraintEnd_toEndOf="@+id/logout"
+                app:layout_constraintStart_toStartOf="@+id/logout"
+                app:layout_constraintTop_toBottomOf="@+id/logout"
                 tools:ignore="TextContrastCheck" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
